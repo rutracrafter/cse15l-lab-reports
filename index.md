@@ -1,20 +1,23 @@
-Hello, World!
-This is a test to see How markdown works
+# Introduction
+Hello there! This will be a step by step tutorial on how to connect to the UCSD basement remotely using your student credentials!
 
-# France Trip
+# Table of Contents
+- [Setting up Credentials](#setting-up-credentials)
+- [Installing VSCode](#installing-vscode)
+- [Remotely Connecting](#remotely-connecting)
+- [Trying Some Commands](#trying-some-commands)
+- [Conclusion](#conclusion)
 
-This is an example trip to france.
+# Setting up Credentials
+Let's begin by [setting up your credentials](https://sdacs.ucsd.edu/~icc/index.php) to login to the basemenent remotely.\
+Pleae click the link above and fill out and submit the fields.
 
-## Paris
-- Attraction 1
-- Attractions 2
-- Attractions 3
 
-That was the [Paris](https://en.wikipedia.org/wiki/Paris) trip
 
-## Versailles
-- Attraction 1
-- Attractions 2
-- Attractions 3
+# Installing VSCode
 
-That was the [Versailles](https://en.wikipedia.org/wiki/Palace_of_Versailles) trip
+# Remotely Connecting
+
+# Trying Some Commands
+
+# Conclusion
