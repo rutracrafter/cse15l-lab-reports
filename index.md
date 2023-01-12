@@ -10,9 +10,9 @@ Hello there! This will be a step by step tutorial on how to connect to the UCSD 
 
 # Setting up Credentials
 Let's begin by [setting up your credentials](https://sdacs.ucsd.edu/~icc/index.php) to login to the basemenent remotely.\
-Pleae click the link above and fill out and submit the fields.
-
-
+Upon clicking the link above, you will be brought to a page that looks like this
+*INSERT IMAGE*\
+Please fill out the fileds and submit the form.\
 
 # Installing VSCode
 
