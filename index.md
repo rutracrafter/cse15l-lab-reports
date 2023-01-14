@@ -87,11 +87,11 @@ You have now successfully connected to the UCSD basement using your UCSD account
 Now give some commands a try to make sure that everything is working as expected!
 
 Some command ideas include: \
-`cd /`
-`cd ~`
-`ls`
-`ls -la`
-`pwd`
-`cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+`cd /` \
+`cd ~` \
+`ls` \
+`ls -la` \
+`pwd` \
+`cat /home/linux/ieng6/cs15lwi23/public/hello.txt` \
 
 # Conclusion
