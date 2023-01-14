@@ -92,6 +92,9 @@ Some command ideas include: \
 `ls` \
 `ls -la` \
 `pwd` \
-`cat /home/linux/ieng6/cs15lwi23/public/hello.txt` \
+`cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
 # Conclusion
+Hooray!! You now know how to remotely connect to the UCSD basement using you UCSD account's credentials! \
+\
+The final step, and this is the most important, is to have fun while you continue to learn!
