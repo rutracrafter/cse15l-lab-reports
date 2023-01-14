@@ -24,6 +24,11 @@ You will then be taken to a page that looks like this: \
 \
 Once here, you should select your account for this course, which will be done by clicking the button that has "cs15lwi23zz" where the zz is a placeholder that represents the characters at the end that are specific to your account. \
 \
+After clicking on that box, you will be taken to a page where you can manage your different UCSD accounts' passwords. It is up to you if you want to change all of your passwords to the new one, or if you only want to change the password to this specific account.\
+\
+**NOTE:** Sometimes even if you leave the global password change box deselected, there is a chance that all of your passwords will be changed to the new one anyway, just be aware that this is something that can and has happened to some people. \
+\
+
 
 
 # Installing VSCode
