@@ -90,6 +90,6 @@ Output: \
 ![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/test-command.png)
 
 # Conclusion
-Hooray!! You now know how to remotely connect to the UCSD basement using you UCSD account's credentials! \
+Hooray!! You now know how to remotely connect to the UCSD basement using your UCSD account's credentials! \
 \
 The final step, and this is the most important, is to have fun while you continue to learn!
