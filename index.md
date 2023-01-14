@@ -30,8 +30,6 @@ After making your decision, follow the instruction given on that page to continu
 **NOTE:** Sometimes even if you leave the global password change box deselected, there is a chance that all of your passwords will be changed to the new one anyway, just be aware that this is something that can and has happened to some people. \
 \
 **IMPORTANT: IT CAN TAKE AROUND 15 MINUTES FOR THE PASSWORD CHANGE TO COME INTO EFFECT** \
-\
-
 
 # Installing VSCode
 
