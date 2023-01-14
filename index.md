@@ -31,7 +31,7 @@ After making your decision, follow the instruction given on that page to continu
 \
 **IMPORTANT: IT CAN TAKE AROUND 15 MINUTES FOR THE PASSWORD CHANGE TO COME INTO EFFECT** \
 \
-You are now done setting up your UCSD account credentials! \
+You are now done setting up your UCSD account credentials!
 
 # Installing VSCode
 Now we need to [download and install Visual Studio Code](https://code.visualstudio.com/) (VSCode for short). \
@@ -46,7 +46,7 @@ Once that's done, you should be able to open VSCode and be brough to a window th
 \
 ![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/vscode-window.png) \
 \
-You are now done downloading and installing VSCode! \
+You are now done downloading and installing VSCode!
 
 # Remotely Connecting
 
