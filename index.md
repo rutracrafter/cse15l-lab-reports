@@ -32,6 +32,9 @@ After making your decision, follow the instruction given on that page to continu
 **IMPORTANT: IT CAN TAKE AROUND 15 MINUTES FOR THE PASSWORD CHANGE TO COME INTO EFFECT** \
 
 # Installing VSCode
+Now we need to download and install Visual Studio Code (VSCode for short).
+
+
 
 # Remotely Connecting
 
