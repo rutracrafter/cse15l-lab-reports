@@ -42,7 +42,7 @@ Once you click the above link, you will be taken to the VSCode home page where y
 \
 Now, once the download is done, double click the executable file to begin the installation process. Follow the on-screen instructions to complete the installation. \
 \
-Once that's done, you should be able to open VSCode and be brough to a window that looks like this: \
+Once that's done, you should be able to open VSCode and be brought to a window that looks like this: \
 \
 ![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/vscode-window.png) \
 \
