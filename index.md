@@ -51,7 +51,7 @@ You are now done downloading and installing VSCode!
 # Remotely Connecting
 We will now be using SSH to connect to the UCSD basement remotely. \
 \
-Inside of your VSCode, press "CTRL + \`" (for windows) or click "Terminal" on the top left, and then click on "New Terminal" to open a new Terminal Window. \
+Inside of your VSCode, press "CTRL + \`(tilde, to the left of the 1 key) " (for windows) or click "Terminal" on the top left, and then click on "New Terminal" to open a new Terminal Window. \
 \
 Then, in the terminal, run the following command `$ ssh cs15lwi23zz@ieng6.ucsd.edu` but replace the zz with your account's corresponding characters. \
 \
