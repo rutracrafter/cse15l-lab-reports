@@ -84,5 +84,14 @@ Sun Jan 02, 2022 11:28pm - Prepping cs15lwi23
 You have now successfully connected to the UCSD basement using your UCSD account's credentials!
 
 # Trying Some Commands
+Now give some commands a try to make sure that everything is working as expected!
+
+Some command ideas include: \
+`cd /`
+`cd ~`
+`ls`
+`ls -la`
+`pwd`
+`cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
 # Conclusion
