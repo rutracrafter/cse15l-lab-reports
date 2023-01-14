@@ -82,8 +82,11 @@ Some command ideas include: \
 `pwd` \
 \
 Here is an example of what this command will output: \
+\
+Input: \
 `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` \
 \
+Output: \
 ![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/test-command.png)
 
 # Conclusion
