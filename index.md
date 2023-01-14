@@ -19,7 +19,7 @@ Please fill out the fileds and submit the form.\
 \
 You will then be taken to a page that looks like this: \
 \
-![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/home-page.png) \
+![Image](https://github.com/rutracrafter/cse15l-lab-reports/tree/main/assets/home-page.png) \
 \
 
 
