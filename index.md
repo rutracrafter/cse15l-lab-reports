@@ -55,12 +55,15 @@ Inside of your VSCode, press "CTRL + \`" (for windows) or click "Terminal" on th
 \
 Then, in the terminal, run the following command `$ ssh cs15lwi23zz@ieng6.ucsd.edu` but replace the zz with your account's corresponding characters. \
 \
-If this is your first time connecting, you should then see some text that looks like this: \
+If this is your first time connecting, you should then see some text that looks like this:
 ```
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
+You can just type yes and press enter to continue forward with connecting. \
+\
+You will now be prompted for a password, which you will not be able to see as you type it in, so go ahead and type in your password and press enter to connect to the server.
 
 # Trying Some Commands
 
