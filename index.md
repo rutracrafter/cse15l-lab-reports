@@ -20,6 +20,9 @@ Please fill out the fileds and submit the form.\
 You will then be taken to a page that looks like this: \
 \
 ![Image](https://github.com/rutracrafter/cse15l-lab-reports/tree/main/assets/home-page.png) \
+[INSERT HOMEPAGE IMAGE]
+\
+Once here, you should select your account for this course, which will be done by clicking the button that has "cs15lwi23zz" where the zz is a placeholder that represents the characters at the end that are specific to your account. \
 \
 
 
