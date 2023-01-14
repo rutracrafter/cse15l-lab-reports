@@ -80,7 +80,11 @@ Some command ideas include: \
 `ls` \
 `ls -la` \
 `pwd` \
-`cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+\
+Here is an example of what this command will output: \
+`cat /home/linux/ieng6/cs15lwi23/public/hello.txt` \
+\
+![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/test-command.png)
 
 # Conclusion
 Hooray!! You now know how to remotely connect to the UCSD basement using you UCSD account's credentials! \
