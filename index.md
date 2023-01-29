@@ -102,3 +102,4 @@ public class Server {
 ```
 \
 On server start:
+![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/onstart.png) \
