@@ -100,3 +100,5 @@ public class Server {
     }
 }
 ```
+\
+On server start:
