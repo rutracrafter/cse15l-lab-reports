@@ -102,4 +102,11 @@ public class Server {
 ```
 \
 On server start:
-![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/onstart.png) \
+![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/onstart.PNG) \
+\
+First Concatenation:
+![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/firstconcat.PNG) \
+\
+Second Concatenation:
+![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/secondconcat.PNG) \
+\
