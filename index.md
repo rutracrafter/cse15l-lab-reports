@@ -128,8 +128,8 @@ Non-failure inducing input: {} (empty array)
 ```
 @Test
 public void testReversed() {
-    int[] input1 = { };
-    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+    int[] input1 = {};
+    assertArrayEquals(new int[]{}, ArrayExamples.reversed(input1));
 }
 ```
 
@@ -137,4 +137,4 @@ The symptom: \
 \
 When the input is {5, 6, 7, 8, 9}, the symptom is {0, 0, 0, 0, 0} whereas the expected output would be {9, 8, 7, 6, 5}. \
 \
-When the input is {} (empty array) the symptom is that it works, however, even though it works for this specific case, the code is still buggy for other imputs as there is a slight error in the logic of the `reversed` method.
+When the input is {} (empty array) the symptom is that it passes the test, however, even though it works for this specific case, the code is still buggy for other imputs as there is a slight error in the logic of the `reversed` method. This is a symptom because it gives the illusion that the method is working properly, however, for input which consists of arrays of non-zero size, the test would not pass.
