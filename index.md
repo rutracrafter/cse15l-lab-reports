@@ -106,8 +106,8 @@ public class Server {
 
 ## First Concatenation:
 ![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/firstconcat.png) \
-`Server.java`'s start method is called in `StringServer.java`'s main method, the port and a new `Handler` object are passed in as parameters. `Server.java`'s start method then creates the server and inside of `ServerHttpHandler`, `StringServer.java`'s `handleRequest` method is called on the `handler` object. `handleRequest` has the logic for our program and what it does is modify the `message` field of the `handler` object by adding a `\n` and the query which the user input in the url. \
+`Server.java`'s start method is called in `StringServer.java`'s main method, the command-line specified port and a new `Handler` object are passed in as parameters to the start method of `Server.java`. `Server.java`'s start method creates a `server` object using `HttpServer`'s create method and calls the `server` object's createContext method with the root URI and a new `ServerHttpHandler` object (start method's handler parameter passed in) passed is as parameters. Inside of `ServerHttpHandler`, `StringServer.java`'s `handleRequest` method is called on the `handler` object which was specified at the beginning of `ServerHttpHandler` as a field. `handleRequest` has the logic for our program and what it does is modify the `message` field of the `handler` object by adding a `\n` and the query which the user input in the url.
 
 ## Second Concatenation:
 ![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/secondconcat.png) \
-\
+The same thing that happened in the first concantenation is happening here, except the user's query is different, so this time, different text is concatenated to the `mesasge` fieldof the `handler` object.
