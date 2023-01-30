@@ -160,3 +160,4 @@ static int[] reversed(int[] arr) {
     return newArray;
 }
 ```
+The reason that the change addressed the issue is because before we were assigning the value from newArray to arr in reverse order and returning arr, and since newArray is an empty array at the start, then arr was just being filled with zeros. After the change, the values from arr are being assigned to newArray in reverse order, and newArray is returned!
