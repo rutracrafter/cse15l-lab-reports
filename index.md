@@ -110,6 +110,16 @@ public class Server {
 
 ## Second Concatenation:
 ![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/secondconcat.png) \
-The same thing that happened in the first concantenation is happening here, except the user's query is different, so this time, different text is concatenated to the `mesasge` field of the `handler` object!
+The same thing that happened in the first concantenation is happening here, except the user's query is different, so this time, different text is concatenated to the `message` field of the `handler` object!
 
 # Part 2
+Chosen bug: Array reversed method
+\
+Failure inducing input:
+```
+@Test
+public void testReversed2() {
+    int[] input = {5, 6, 7, 8, 9};
+    assertArrayEquals(new int[]{9, 8, 7, 6, 5}, ArrayExamples.reversed(input));
+}
+```
