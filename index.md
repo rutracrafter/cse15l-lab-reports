@@ -123,7 +123,7 @@ public void testReversed2() {
     assertArrayEquals(new int[]{9, 8, 7, 6, 5}, ArrayExamples.reversed(input));
 }
 ```
-
+\
 Non-failure inducing input: {} (empty array)
 ```
 @Test
@@ -134,5 +134,6 @@ public void testReversed() {
 ```
 
 The symptom:
-When the input is {5, 6, 7, 8, 9}, the symptom is {0, 0, 0, 0, 0} whereas the expected output would be {9, 8, 7, 6, 5}.
-when the input is {} (empty array) the symptom is that it works, however, even though it works for this specific case, the code is still buggy for other imputs as there is a slight error in the logic of the `reversed` method.
+When the input is {5, 6, 7, 8, 9}, the symptom is {0, 0, 0, 0, 0} whereas the expected output would be {9, 8, 7, 6, 5}. \
+\
+When the input is {} (empty array) the symptom is that it works, however, even though it works for this specific case, the code is still buggy for other imputs as there is a slight error in the logic of the `reversed` method.
