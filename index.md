@@ -107,6 +107,8 @@ On server start:
 First Concatenation:
 ![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/firstconcat.png) \
 \
+`Server.java`'s start method is called in `StringServer.java`'s main method, the port and a new `Handler` object are passed in as parameters. `Server.java`'s start method then creates the server and inside of `ServerHttpHandler`, `StringServer.java`'s `handlerRequest` method is called on the `handle` object. handleRequest has the logic for our program and what it does is modify the `message` field of the `Handler` by adding a `\n` and the query which the user input in the url.
+\
 Second Concatenation:
 ![Image](https://rutracrafter.github.io/cse15l-lab-reports/assets/secondconcat.png) \
 \
