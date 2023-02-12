@@ -94,4 +94,4 @@ written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt
 written_2/travel_guides/berlitz2/PuertoRico-WhatToDo.txt   
 written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt
 ```
-In the above example, `find` is looking in written_2 for all paths that contain the string `"todo"` regardless of capitalization. In this case the `-iname` flag is useful because I wanted to find all of the things to do in these different places, and by searching for "todo" while ignoring case, I get back all of the possible things to do, regardless of how it is capitalized.
+In the above example, `find` is looking in written_2 for all paths that contain the string `"todo"` regardless of capitalization. In this case the `-iname` flag is useful because I wanted to find all of the things to do in these different places, and by searching for "todo" while ignoring case, I get back all of the possible things to do, regardless of the files are capitalized.
