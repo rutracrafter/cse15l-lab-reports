@@ -183,10 +183,12 @@ written_2/travel_guides
 written_2/travel_guides/berlitz1
 written_2/travel_guides/berlitz2
 ```
-In the example above, we are looking for files and directories that have been accessed within the last 15 minutes. The negative sign in from of the `-15` indicates that we are looking for think that were either accessed 15 minutes ago, or sooner. If we had used a plus instead of a negative sign, we would have wound up with files that were either accessed 15 minutes ago or later. This is a super useful command as I can kind of see what I have been up to in the last 15 minutes. Imagine that I couldn't remember the directory named "Kauffman" maybe I only remembered that it's name started with a "K", but I also remember that I accessed it less than 15 minutes ago, the above command would have really helped me in finding the Kauffman directory! 
+In the example above, we are looking for files and directories that have been accessed within the last 15 minutes. The negative sign in front of the `-15` indicates that we are looking for things that were either accessed 15 minutes ago, or sooner. If we had used a plus instead of a negative sign, we would have wound up with things that were either accessed 15 minutes ago or later. This is a super useful command as I can kind of see what I have been up to in the last 15 minutes. Imagine that I couldn't remember the directory named "Kauffman" maybe I only remembered that it's name started with a "K", but I also remember that I accessed it less than 15 minutes ago, the above command would have really helped me in finding the Kauffman directory!
 
 Example 2:
 ```
-insert
+[cs15lwi23asd@ieng6-201]:skill-demo1-data:316$ vim written_2/non-fiction/OUP/Kauffman/ch8.txt
+[cs15lwi23asd@ieng6-201]:skill-demo1-data:317$ find written_2/ -amin -5 -type f
+written_2/non-fiction/OUP/Kauffman/ch8.txt
 ```
-In the above...
+In the above example, I used the command-line text editor named Vim to access the file with path `written_2/non-fiction/OUP/Kauffman/ch8.txt`, then I used the `find` command with the `-amin` flag and the `-type` flag to look for a file in written_2 that had been accessed in the last 5 minutes. This is similar to the example above, except this time I actually accessed a file rather than only having accessed directories as in the example above. This is super useful because lets say that I had accessed 5 files in the last 5 minutes, and I couldn't remember their names, using the `find` command with the `-amin` flag as in the example above, I could see which files I had accessed in the last five minutes.
