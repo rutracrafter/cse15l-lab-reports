@@ -99,6 +99,8 @@ In the above example, `find` is looking in written_2 for all paths that contain 
 ## Find with multiple directories
 The `find` command can also be used on multiple directories at the same time! We just have to specify the multiple directory paths that we want `find` to look into, but there isn't any special flag needed! This is super useful as if we are looking for a file that we can't remember the location of, we can look in multiple directories to speed up the search process!
 
+Source: https://geekflare.com/linux-find-commands/
+
 Example 1:
 ```
 [cs15lwi23asd@ieng6-201]:skill-demo1-data:295$ find written_2/non-fiction/OUP/Fletcher/ written_2/non-fiction/OUP/Kauffman/ -iname "*ch5*"
@@ -159,3 +161,32 @@ written_2/travel_guides/berlitz2/PuertoRico-History.txt
 written_2/travel_guides/berlitz2/Vallarta-History.txt
 ```
 In this example, we are looking for all files containing the substring "history" regardless of case in the `written_2/travel_guides/berlitz1` and `written_2/travel_guides/berlitz2` directories. This is very similar to the last example, however, look at how useful of a feature this is on a larger scale. If we wanted to output this result into a file using `>` it would much simpler to use `find` with multiple directory paths, rather than having to run `find` on each individual directory path, and then concatenating each run of `find` to the desired file, imagine this time that we do this for 1000 different directories, we are saving so much time by using multiple paths! 
+
+## Find with `-amin` flag
+To find files and directories that have been accessed within a specfied amount of minutes, we can use the `-amin` flag. This can be super handy if we are looking for a file or directory that we accessed a few minutes ago, but can't remember the name of.
+
+Source: https://geekflare.com/linux-find-commands/
+
+Example 1:
+```
+[cs15lwi23asd@ieng6-201]:skill-demo1-data:302$ find written_2/ -amin -15
+written_2/
+written_2/non-fiction
+written_2/non-fiction/OUP
+written_2/non-fiction/OUP/Abernathy 
+written_2/non-fiction/OUP/Berk      
+written_2/non-fiction/OUP/Castro    
+written_2/non-fiction/OUP/Fletcher  
+written_2/non-fiction/OUP/Kauffman  
+written_2/non-fiction/OUP/Rybczynski
+written_2/travel_guides
+written_2/travel_guides/berlitz1
+written_2/travel_guides/berlitz2
+```
+In the example above, we are looking for files and directories that have been accessed within the last 15 minutes. The negative sign in from of the `-15` indicates that we are looking for think that were either accessed 15 minutes ago, or sooner. If we had used a plus instead of a negative sign, we would have wound up with files that were either accessed 15 minutes ago or later. This is a super useful command as I can kind of see what I have been up to in the last 15 minutes. Imagine that I couldn't remember the directory named "Kauffman" maybe I only remembered that it's name started with a "K", but I also remember that I accessed it less than 15 minutes ago, the above command would have really helped me in finding the Kauffman directory! 
+
+Example 2:
+```
+insert
+```
+In the above...
