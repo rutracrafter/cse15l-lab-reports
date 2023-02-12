@@ -17,3 +17,4 @@ written_2/non-fiction/OUP/Abernathy/ch7.txt
 written_2/non-fiction/OUP/Abernathy/ch8.txt 
 written_2/non-fiction/OUP/Abernathy/ch9.txt
 ```
+What is happening above is, we are running the find command on the written_2 directory, and specifying via `-type f` that we only want to see files, not directories. This is useful if we want to look at or do something to all files in a directory.
