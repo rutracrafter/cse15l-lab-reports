@@ -95,3 +95,67 @@ written_2/travel_guides/berlitz2/PuertoRico-WhatToDo.txt
 written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt
 ```
 In the above example, `find` is looking in written_2 for all paths that contain the string `"todo"` regardless of capitalization. In this case the `-iname` flag is useful because I wanted to find all of the things to do in these different places, and by searching for "todo" while ignoring case, I get back all of the possible things to do, regardless of the files are capitalized.
+
+## Find with multiple directories
+The `find` command can also be used on multiple directories at the same time! We just have to specify the multiple directory paths that we want `find` to look into, but there isn't any special flag needed! This is super useful as if we are looking for a file that we can't remember the location of, we can look in multiple directories to speed up the search process!
+
+Example 1:
+```
+[cs15lwi23asd@ieng6-201]:skill-demo1-data:295$ find written_2/non-fiction/OUP/Fletcher/ written_2/non-fiction/OUP/Kauffman/ -iname "*ch5*"
+written_2/non-fiction/OUP/Fletcher/ch5.txt
+written_2/non-fiction/OUP/Kauffman/ch5.txt
+```
+In the example above, we are using `find` to look for paths containing the substring "ch5" regardless of capitalization in the `written_2/non-fiction/OUP/Fletcher/` and `written_2/non-fiction/OUP/Kauffman/` directories! This is super useful in this case because instead of having to use find 2 times, we only had to use it once, imagine if we were looking for paths containing the substring "ch5" regardless of capitalization in 500 different directories! We would not want to write the find command over and over again 500 times, so instead we can specify many paths at once!
+
+Example 2:
+```
+[cs15lwi23asd@ieng6-201]:skill-demo1-data:299$ find written_2/travel_guides/berlitz1 written_2/travel_guides/berlitz2 -type f -iname "*history*"
+written_2/travel_guides/berlitz1/HistoryDublin.txt        
+written_2/travel_guides/berlitz1/HistoryEdinburgh.txt     
+written_2/travel_guides/berlitz1/HistoryEgypt.txt
+written_2/travel_guides/berlitz1/HistoryFWI.txt
+written_2/travel_guides/berlitz1/HistoryFrance.txt        
+written_2/travel_guides/berlitz1/HistoryGreek.txt
+written_2/travel_guides/berlitz1/HistoryHawaii.txt        
+written_2/travel_guides/berlitz1/HistoryHongKong.txt      
+written_2/travel_guides/berlitz1/HistoryIbiza.txt
+written_2/travel_guides/berlitz1/HistoryIndia.txt
+written_2/travel_guides/berlitz1/HistoryIsrael.txt        
+written_2/travel_guides/berlitz1/HistoryIstanbul.txt      
+written_2/travel_guides/berlitz1/HistoryItaly.txt
+written_2/travel_guides/berlitz1/HistoryJamaica.txt       
+written_2/travel_guides/berlitz1/HistoryJapan.txt
+written_2/travel_guides/berlitz1/HistoryJerusalem.txt     
+written_2/travel_guides/berlitz1/HistoryLakeDistrict.txt  
+written_2/travel_guides/berlitz1/HistoryLasVegas.txt      
+written_2/travel_guides/berlitz1/HistoryMadeira.txt       
+written_2/travel_guides/berlitz1/HistoryMadrid.txt        
+written_2/travel_guides/berlitz1/HistoryMalaysia.txt      
+written_2/travel_guides/berlitz1/HistoryMallorca.txt      
+written_2/travel_guides/berlitz2/Algarve-History.txt      
+written_2/travel_guides/berlitz2/Amsterdam-History.txt    
+written_2/travel_guides/berlitz2/Athens-History.txt       
+written_2/travel_guides/berlitz2/Bahamas-History.txt      
+written_2/travel_guides/berlitz2/Bali-History.txt
+written_2/travel_guides/berlitz2/Barcelona-History.txt    
+written_2/travel_guides/berlitz2/Beijing-History.txt      
+written_2/travel_guides/berlitz2/Berlin-History.txt       
+written_2/travel_guides/berlitz2/Bermuda-history.txt      
+written_2/travel_guides/berlitz2/Budapest-History.txt     
+written_2/travel_guides/berlitz2/California-History.txt   
+written_2/travel_guides/berlitz2/Canada-History.txt       
+written_2/travel_guides/berlitz2/CanaryIslands-History.txt
+written_2/travel_guides/berlitz2/Cancun-History.txt       
+written_2/travel_guides/berlitz2/China-History.txt        
+written_2/travel_guides/berlitz2/Costa-History.txt        
+written_2/travel_guides/berlitz2/CostaBlanca-History.txt  
+written_2/travel_guides/berlitz2/Crete-History.txt        
+written_2/travel_guides/berlitz2/Cuba-History.txt
+written_2/travel_guides/berlitz2/Nepal-History.txt        
+written_2/travel_guides/berlitz2/NewOrleans-History.txt   
+written_2/travel_guides/berlitz2/Poland-History.txt       
+written_2/travel_guides/berlitz2/Portugal-History.txt     
+written_2/travel_guides/berlitz2/PuertoRico-History.txt   
+written_2/travel_guides/berlitz2/Vallarta-History.txt
+```
+In this example, we are looking for all files containing the substring "history" regardless of case in the `written_2/travel_guides/berlitz1` and `written_2/travel_guides/berlitz2` directories. This is very similar to the last example, however, look at how useful of a feature this is on a larger scale. If we wanted to output this result into a file using `>` it would much simple to use `find` with multiple directory paths, rather than having to run `find` on each individual directory path, and then concatenating each run of `find` to the desired file, imagine this time that we do this for 1000 different directories, we are saving so much time by using multiple paths! 
